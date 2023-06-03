@@ -1,0 +1,22 @@
+@media (min-width: 600px){
+    .menu-list {
+        display: flex !important;
+        justify-content: space-around;
+        background-color: #C5C5B2;
+        padding: 10px;
+        list-style-type: none;
+        margin: 0;
+        font-size: 1.1em;
+    }
+}
+
+@media (min-width: 800px){
+    .container{
+        width: 60%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -1,0 +1,92 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+}
+
+header ul{
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    align-content: center;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #383F5D;
+    font-weight: bold;
+}
+
+header ul li a:hover{
+    color: #6D78A8;
+}
+
+main .imagem{
+    display: flex;
+    background-color: #EFEFEF;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+main img{
+    width: 90%;
+    margin: 30px 5px;
+}
+
+main .texto h2{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+main h2{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+main .texto p{
+    margin-left: 10px;
+    text-align: center;
+}
+
+main > p{
+    margin-left: 10px;
+    text-align: center;
+}
+
+footer{
+    padding: 10px 10px;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+form{
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1em;
+}
+
+form input[type="email"]{
+    width: 40%;
+}
+
+form input[type="text"]{
+    width: 60%;
+}
+
+form textarea{
+    width: 60%;
+}
+
+form input[type="button"]{
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+}

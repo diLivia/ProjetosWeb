@@ -1,0 +1,106 @@
+body{
+    background: #d2d2c1 url(../images/fundo.png);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#imagem-header img{
+    width: 100%;
+}
+
+.menu {
+    position: relative;
+}
+  
+.menu-toggle {
+    display: none; /* Esconde o botão em telas maiores */
+    background-color: #C5C5B2;
+    border: none;
+    padding: 5px;
+    font-size: 1.5em;
+}
+
+.menu-list {
+    display: none; /* Esconde a lista de itens por padrão */
+    top: 100%;
+    left: 0;
+    background-color: #C5C5B2;
+    padding: 10px;
+    list-style-type: none;
+    margin: 0;
+    font-size: 1.1em;
+}
+
+.menu-list li {
+    margin-bottom: 5px;
+}
+
+.menu-list li a{
+    text-decoration: none;
+    color: #4B566A;
+}
+
+.menu-list li a:hover{
+    color: black;
+}
+
+.menu-toggle:hover{
+    cursor: pointer;
+}
+
+/* Mostra a lista de itens quando o botão é clicado */
+.menu-toggle:checked + .menu-list {
+    display: block;
+}
+
+/* Exibe o botão em telas menores */
+@media screen and (max-width: 600px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    .menu-list {
+        position: static;
+        display: block;
+    }
+}   
+
+main{
+    background-color: #E8E8D9;
+    padding: 5px 15px;
+}
+
+main .img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main img{
+    width: 90%;
+    border: #C5C5B2 10px solid;
+    border-radius: 10px;
+}
+
+main h2{
+    color: #828271;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main p{
+    font-weight: lighter;
+    font-size: 0.9em;
+}
+
+main #contatos-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+footer p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1em;
+}
+

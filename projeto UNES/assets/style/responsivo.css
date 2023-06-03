@@ -1,0 +1,66 @@
+@media(min-width: 600px){
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        padding: 20px;
+    }
+    
+    header ul{
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+    }
+
+    header ul li {
+        margin-left: 15px;
+    }
+}
+
+@media(min-width: 1000px){
+    header{
+        margin: auto 80px;
+    }
+
+    main{
+        margin: auto 70px;
+    }
+
+    main img{
+        width: 60%;
+    }
+}
+
+@media(min-width: 1200px){
+    
+
+    #pagina-principal{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    main .imagem{
+        width: 50%;
+    }
+
+    main img{
+        width: 90%;
+    }
+
+    main .texto{
+        width: 50%;
+    }
+}
+
+@media (min-width: 1440px){
+    header{
+        margin: auto 220px;
+    }
+
+    main{
+        margin: auto 200px;
+    }
+}

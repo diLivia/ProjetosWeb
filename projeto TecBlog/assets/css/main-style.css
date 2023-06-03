@@ -1,0 +1,159 @@
+:root{
+    --laranja: #f7b600;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: var(--laranja);
+    padding: 15px;
+}
+
+#logo{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+header h1{
+    color: #4E4E4E;
+    font-size: 2.5em;
+}
+
+.white-text{
+    color: white;
+}
+
+.header-nav{
+    width: 100%;
+    padding: 10px;
+}
+
+.header-nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.header-nav li{
+    list-style-type: none;
+    margin: 0 3px;
+}
+
+.header-nav a{
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+}
+
+.header-nav a:hover{
+    background-color: white;
+    color: var(--laranja);
+}
+
+.fundo{
+    background-color: #e6e6e6;
+    padding: 15px 0;
+}
+
+.conteudo{
+    margin: 0 auto;
+    width: 85%;
+}
+
+.link-corpo{
+    text-decoration: none;
+    color: var(--laranja);
+    font-size: 0.8em;
+}
+
+.link-corpo:hover{
+    text-decoration: underline;
+}
+
+main article{
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.titulo-artigo{
+    color: var(--laranja);
+    font-size: 1.6em;
+}
+
+.data-postagem{
+    margin: 0 0 10px 0;
+    padding: 0 0 10px 0;
+    font-size: 0.8em;
+    font-weight: lighter;
+}
+
+article img{
+    width: 100%;
+}
+
+aside{
+    display: flex;
+}
+
+aside article{
+    background-color: white;
+    padding: 10px;
+}
+
+aside p{
+    font-size: 0.8em;
+}
+
+.titulo-aside{
+    background-color: #CCCCCC;
+    color: #565656;
+    padding: 5px;
+}
+
+.recentes{
+    margin: 0 20px 0 0;
+}
+
+.recentes div{
+    padding: 5px;
+}
+
+.aside-nav{
+    padding: 15px 0;
+}
+
+.aside-nav ul{
+    list-style: none;
+}
+
+.aside-nav a{
+    text-decoration: none;
+    color: var(--laranja);
+}
+
+.aside-nav a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    background-color: #CCCCCC;
+    width: 85%;
+    padding: 15px;
+    margin: 20px auto;
+    text-align: center;
+}
